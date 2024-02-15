@@ -5,19 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node pdf.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/babel-cli/bin/babel.js src --out-dir lib --plugins transform-react-jsx --presets es2015"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "next": "^14.1.0",
-    "nodemon": "^2.0.7",
-    "webpack-cli": "^5.1.4"
+    "nodemon": "^2.0.7"
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
     "express": "^4.17.1",
     "path": "^0.12.7",
     "pdfkit": "^0.12.1"
